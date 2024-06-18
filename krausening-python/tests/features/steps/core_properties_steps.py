@@ -1,6 +1,6 @@
 import os
 
-from behave import *
+from behave import given, when, then  # pylint: disable=no-name-in-module
 from krausening.properties import PropertyManager
 from nose.tools import assert_equal
 from test_config import TestConfig
